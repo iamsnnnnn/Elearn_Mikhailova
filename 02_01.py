@@ -4,7 +4,7 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, Border, Side
 from openpyxl.styles.numbers import BUILTIN_FORMATS
 
-money = {'AZN':{'name':'Манаты','cost':35.68},'BYR':{'name':'Белорусские рубли','cost': 23.91},
+pizza_2 = {'AZN':{'name':'Манаты','cost':35.68},'BYR':{'name':'Белорусские рубли','cost': 23.91},
     'EUR':{'name':'Евро','cost': 59.90},'GEL':{'name':'Грузинский лари','cost': 21.74},
     'KGS':{'name':'Киргизский сом','cost': 0.76},'KZT':{'name':'Тенге','cost': 0.13},
     'RUR':{'name':'Рубли','cost':1.00},'UAH':{'name':'Гривны','cost':  1.64},
